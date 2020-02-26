@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  >
+
+  <com.github.mhelmi.magiccardview.MagicCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:mcv_backgroundColor="@color/colorAccent"
+    app:mcv_backgroundMode="gradient"
+    app:mcv_cornerRadius="20dp"
+    app:mcv_gradientEndColor="@color/colorPrimary"
+    app:mcv_gradientStartColor="@color/colorPrimaryDark"
+    app:mcv_rippleColor="@color/colorPrimaryDark"
+    app:mcv_shadowColor="@color/colorPrimary"
+    app:mcv_shadowRadius="20dp"
+    >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:padding="20dp"
+      >
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello, this Helmi"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="I have made this library"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="And I will be happy if it can help you"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        />
+    </LinearLayout>
+  </com.github.mhelmi.magiccardview.MagicCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MagicCardView">
+    <attr name="mcv_backgroundMode">
+      <enum name="normal" value="0" />
+      <enum name="gradient" value="1" />
+    </attr>
+    <attr name="mcv_backgroundColor" format="color" />
+    <attr name="mcv_gradientStartColor" format="color" />
+    <attr name="mcv_gradientEndColor" format="color" />
+    <attr name="mcv_cornerRadius" format="dimension" />
+    <attr name="mcv_cornerTopLeftRadius" format="dimension" />
+    <attr name="mcv_cornerTopRightRadius" format="dimension" />
+    <attr name="mcv_cornerBottomRightRadius" format="dimension" />
+    <attr name="mcv_cornerBottomLeftRadius" format="dimension" />
+    <attr name="mcv_rippleColor" format="color" />
+    <attr name="mcv_shadowRadius" format="dimension" />
+    <attr name="mcv_shadowColor" format="color" />
+    <attr name="mcv_shadowGravity">
+      <enum name="center" value="17" />
+      <enum name="left" value="3" />
+      <enum name="top" value="48" />
+      <enum name="right" value="5" />
+      <enum name="bottom" value="80" />
+    </attr>
+  </declare-styleable>
+
+</resources>
