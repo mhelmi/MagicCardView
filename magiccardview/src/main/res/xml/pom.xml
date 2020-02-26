@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+  <repository>
+    <id>jcenter</id>
+    <url>https://jcenter.bintray.com/</url>
+  </repository>
+</repositories>
