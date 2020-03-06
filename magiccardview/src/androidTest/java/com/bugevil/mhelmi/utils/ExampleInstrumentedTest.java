@@ -1,4 +1,4 @@
-package com.github.mhelmi.magiccardview;
+package com.bugevil.mhelmi.utils;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-    assertEquals("com.github.mhelmi.magiccardview", appContext.getPackageName());
+    assertEquals("com.github.mhelmi.magiccardview.test", appContext.getPackageName());
   }
 }

@@ -1,4 +1,4 @@
-package com.github.mhelmi.magiccardview
+package com.bugevil.mhelmi.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -20,7 +20,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import androidx.annotation.RequiresApi
-import com.github.mhelmi.magiccardview.R.styleable
+import com.bugevil.mhelmi.utils.R.styleable
 import java.util.Arrays
 
 class MagicCardView : FrameLayout {

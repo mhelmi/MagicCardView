@@ -1,4 +1,4 @@
-package com.github.mhelmi.magiccardview;
+package com.bugevil.mhelmi.utils;
 
 import org.junit.Test;
 

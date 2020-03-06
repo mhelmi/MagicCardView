@@ -1,4 +1,4 @@
-package com.github.mhelmi.magiccardviewexample;
+package com.bugevil.mhelmi.magiccardviewexample;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

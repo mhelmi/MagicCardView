@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
   compileSdkVersion 29
-  buildToolsVersion "29.0.2"
+  buildToolsVersion "29.0.3"
   defaultConfig {
-    applicationId "com.github.mhelmi.magiccardviewexample"
+    applicationId "com.bugevil.mhelmi.magiccardviewexample"
     minSdkVersion 16
     targetSdkVersion 29
     versionCode 1
@@ -30,7 +30,8 @@ dependencies {
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
   // my library module
   implementation project(path: ':magiccardview')
-  implementation "androidx.core:core-ktx:1.2.0"
+//  implementation 'com.bugevil.mhelmi.utils:MagicCardView:1.0.0'
+  implementation 'androidx.core:core-ktx:1.2.0'
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {

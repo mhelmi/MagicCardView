@@ -7,7 +7,7 @@
   tools:context=".MainActivity"
   >
 
-  <com.github.mhelmi.magiccardview.MagicCardView
+  <com.bugevil.mhelmi.utils.MagicCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_constraintEnd_toEndOf="parent"
@@ -61,5 +61,5 @@
         android:textSize="30sp"
         />
     </LinearLayout>
-  </com.github.mhelmi.magiccardview.MagicCardView>
+  </com.bugevil.mhelmi.utils.MagicCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
